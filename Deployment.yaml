@@ -7,14 +7,14 @@ spec:
   selector:
     matchLabels:
       app: mrdevops
-    template:
-      metadata:
-        labels: 
-          app: mrdevops
-      spec:
-        containers:
-          - name: mrdevops
-            image: abhimanyurai29/pipeline-demo:latest
-            imagePullPolicy: Always
-            ports:
+  template:
+    metadata:
+      labels: 
+        app: mrdevops
+    spec:
+       containers:
+         - name: mrdevops
+           image: abhimanyurai29/pipeline-demo:latest
+           imagePullPolicy: Always
+           ports:
             - containerPOrt: 80
