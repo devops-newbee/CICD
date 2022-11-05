@@ -17,4 +17,4 @@ spec:
            image: abhimanyurai29/pipeline-demo:latest
            imagePullPolicy: Always
            ports:
-            - containerPOrt: 80
+            - containerPort: 80
